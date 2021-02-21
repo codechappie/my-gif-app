@@ -19,7 +19,7 @@ const AddCategory = ({setCategories}) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input type="text" value={inputValue} onChange={handleInputChange} />
+      <input className="search-input" type="text" value={inputValue} onChange={handleInputChange} />
     </form>
   );
 };
